@@ -38,17 +38,6 @@ array();
 nav.appendChild(ul);
 
 
-/*list.forEach(function(item) {
-    const li = document.createElement("li");
-    var text = document.createTextNode(item);
-    
-    li.appendChild(text);
-    
-    ul.appendChild(li);
-});*/
-
-
-
 /* creating section1 and adding heading and paragraph  */
 var section1 = document.getElementById("box");
 
@@ -92,16 +81,3 @@ section1.appendChild(sec3);
 /* adding text to footer element */
 const foot = document.getElementById("footy");
 foot.textContent = "@copywright at my website";
-
-
-
-
-/*document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});*/
