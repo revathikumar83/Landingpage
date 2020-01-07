@@ -11,9 +11,7 @@ header {
     padding: 15px;
 }
 
-body {
-    background-color: whitesmoke;
-}
+
 
 
 /* mobile screens*/
@@ -24,6 +22,7 @@ body {
     grid-template-areas: "hd " "sd" "main" "sp" "ft";
     border: 2px gray;
     grid-gap: 5px;
+    background-color: whitesmoke;
 }
 
 
@@ -37,6 +36,7 @@ body {
         grid-template-columns: 50px 300px 50px;
         border: 2px gray;
         grid-gap: 5px;
+        background-color: whitesmoke;
     }
 }
 
@@ -51,6 +51,7 @@ body {
         grid-template-columns: 50px 300px 50px;
         border: 2px gray;
         grid-gap: 5px;
+        background-color: whitesmoke;
     }
 }
 
@@ -97,12 +98,12 @@ a:active {
 
 /* section style */
 
-#imagesec {
+#section1 {
     background-image: url('https://www.oodlesthemes.com/wp-content/uploads/2017/10/OO0122317-Abstract-Background-design-Vector-590x393.jpg ');
     height: 400px;
 }
 
-#imagesec p {
+#section1 p {
     text-align: center;
     font-size: 20px;
     color: white;
@@ -110,13 +111,13 @@ a:active {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#imagesec h2 {
+#section1 h2 {
     text-align: center;
     font-size: 30px;
     color: white;
 }
 
-#imagesec1 p {
+#section2 p {
     border-style: solid;
     background-color: grey;
     color: whitesmoke;
@@ -124,11 +125,11 @@ a:active {
     padding: 50px;
 }
 
-#imagesec1 {
+#section2 {
     margin-bottom: 60px;
 }
 
-#imagesec2 {
+#section3 {
     font-size: 20px;
     color: black;
     margin-left: 20px;
@@ -137,7 +138,7 @@ a:active {
     flex-direction: row;
 }
 
-#imagesec2 p {
+#section3 p {
     line-height: inherit;
     margin-right: 40px;
     padding: 60px;
@@ -145,12 +146,12 @@ a:active {
     border: 2px solid gray;
 }
 
-#imagesec3 {
+#section4 {
     font-size: 20px;
     color: black;
 }
 
-#imagesec3 p {
+#section4 {
     margin-left: 30px;
 }
 
