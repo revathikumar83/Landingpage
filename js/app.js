@@ -120,10 +120,12 @@ const add = (target, class_name) => {
       if(window.scrollY >= section_active[i] && !(window.scrollY > section_active[i+1])){
         links[i].style.cssText = "background-color: green;";
       }else{
-        links[i].style.cssText = "background-color: #fff;";
+        links[i].style.cssText = "background-color: white;";
       }
     }
   }
+  
+
   
 
 window.addEventListener("DOMContentLoaded",array);
